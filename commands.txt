@@ -1,0 +1,39 @@
+uname -a ---> check the version of cygTerminal
+clear --> to clear the terminal commands
+cd C:\Linux --> To navigate to the path
+
+File system in windows
+drivers --> C --> folders/files related to os
+		--> D
+
+cygdrive  --> C
+		  --> D
+
+Linux File system]
+root dir(at the top) --> /etc
+					 --> /usr
+					 --> /home
+				
+
+file commands
+1. pwd --> present working directory
+2. cd /cygdrive/"Path" ->> change to particular directory
+3. cd /cygdrive/c/Linux/'new folder' --> use single quotes if there is space 
+   cd /cygdrive/c/Linux/new\folder   --> use backward slash
+4. cd ../ --> one step back
+   cd ../../ --> two steps back
+5. cd /cygdrive 1 tab(slash-autofill),2 tabs(recomendations)
+6. mkdir (name) --> to create a folder
+   mkdir {1..15}_dir --> to create multiple folders
+7. rmdir (name) --> remove the empty directory
+   rmdir {1..15}_dir --> to remove remove multiple folders
+8. man mkdir -->Manual page of mkdir
+9. man rmdir --> Manual page of rmdir
+10. rm --> used to remove the files and dir
+11. rm -d vlsi/ --> to remove the empty dir/folder
+12. rm -r * --> to remove all
+13. touch nex.txt --> to create a file
+14. cp -r (file/folder)/ /{path} --> copy the files/dir
+15. mv -f (file/folder)/ /{path} --> move the files/dir
+16. mv -f (file) (new name) --> rename
+17.
