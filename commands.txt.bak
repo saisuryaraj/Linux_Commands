@@ -9,12 +9,11 @@ drivers --> C --> folders/files related to os
 cygdrive  --> C
 		  --> D
 
-Linux File system]
+Linux File system
 root dir(at the top) --> /etc
 					 --> /usr
 					 --> /home
 				
-
 file commands
 1. pwd --> present working directory
 2. cd /cygdrive/"Path" ->> change to particular directory
@@ -34,4 +33,32 @@ file commands
 12. rm -r * --> to remove all
 13. touch nex.txt --> to create a file
 14. cp -r (file/folder)/ /{path} --> copy the files/dir
-15.
+15. mv -f (file/folder)/ /{path} --> move the files/dir
+16. mv -f (file) (new name) --> rename
+17. ls --> to know the available files /folders in a directory
+18. ls -l --> long list format of all the folders/files
+19. cat --> used to print the content of text file.
+			concating the files.
+20. cat>new.txt --> overriding the content
+21. touch --> creates empty files 
+22. head --> generally prints first 10 lines
+	head -5 -> first 5 lines
+23. tail --> generally prints last 10 lines
+	tail -5 --> last 5 lines
+24. tac --> prints in reverse order
+25. more --> see content by some %
+26. less --> see content by some %
+27. id --> print the id
+28. cal --> prints calendar
+	cal 2024 --> complete year calendar
+29. date --> prints today date
+30. ping www.google.com --> connectivity status
+31. hostname --> prints hostname
+	hostname -i --> prints ip address
+32. ps --> different id's
+33. mv (file) /{path to move}/ --> to move file
+34. find ./ -name "*" -type d --> find
+35. history --> history of commands
+	history | grep "cd" |wc -l --> print no.of lines
+36. 
+
